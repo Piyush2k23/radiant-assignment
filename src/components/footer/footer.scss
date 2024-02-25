@@ -1,0 +1,32 @@
+.footer-container{
+    background-color: #212731;
+    display: flex;
+    width: 100%;
+    height: 452px;
+    gap: 80px;
+    padding: 0 295px 0 295px;
+
+    section{
+        h4{
+            color: #FFFFFF;
+            font-size: 16px;
+        }
+    }
+
+    ul{
+            list-style-type: none;
+        li{
+
+            a{
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 13px;
+                color: #B6BDC4;
+            }
+        }
+    }
+    span{
+        font-size: 13px;
+        color: #D1D6DA;
+    }
+}

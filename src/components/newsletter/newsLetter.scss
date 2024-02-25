@@ -1,0 +1,47 @@
+.newsletter-container{
+     
+    width: 1024px;
+    height: 171px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+    h4{
+        font-size: 32px;
+        line-height: 44px;
+        font-weight: 400;
+        color: #5C6874;
+        width: 398px;
+        height: 88px;
+    }
+
+    .input-container{
+         display: flex;
+
+         input{
+            width: 348px;
+            height: 52px;
+            border-top-left-radius: 12px;
+            border-bottom-left-radius: 12px;
+            border: none;
+            background-color: #FFFFFF;
+            
+
+         }
+
+         button{
+            width: 97px;
+            height: 52px;
+            border: none;
+             background-color: #1B88F4;
+             color: #FFFFFF;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+              
+         }
+         
+    }
+}

@@ -1,0 +1,51 @@
+.navbar-container{
+    background-color: #212731;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .search-container{
+            position: relative;
+            display: flex;
+            width: 258px;
+            height: 37px;
+        .search{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            
+            top: 25%;
+        
+        }
+
+         input{
+            border: none;
+            width: 100%;
+            border-radius: 8px;
+
+         }
+    }
+
+    nav{
+         ul{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            li{
+                display: flex;
+
+                a{
+                    font-weight: 400;
+                    font-size: 14px;
+                    text-decoration: none;
+                    color: #D1D6DA;
+                }
+            }
+         }
+    }
+
+}

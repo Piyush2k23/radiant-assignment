@@ -1,21 +1,23 @@
-import "navbar.scss";
+import "./navbar.scss";
+import { CiSearch } from "react-icons/ci";
 
 const Navbar = () => {
   return (
-    <div>
-        <div>
+    <div className="navbar-container">
+        <div className="search-container">
+            <div className="search"><CiSearch /></div>
             <input type="text" />
         </div>
         <nav>
             <ul>
                 <li>
-                  <Link to="#">Categories</Link>
+                  <a href="#">Categories</a>
                 </li>
                 <li>
-                  <Link to="#">Website Builders</Link>
+                  <a href="#">Website Builders</a>
                 </li>
                 <li>
-                  <Link to="#">Today's deals</Link>
+                  <a href="#">Today's deals</a>
                 </li>
             </ul>
         </nav>

@@ -1,0 +1,88 @@
+h2{
+    font-size: 32px;
+    color: #2C384A;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.card-container{
+     width: 333px;
+     height: 425px;
+     display: flex;
+     border-radius: 12px;
+     align-items: center;
+     flex-direction: column;
+     background-color: #FFFFFF;
+     justify-content: space-evenly;
+     padding-top: 10px;
+    
+
+     .card-img{
+        width: 141px;
+        height: 103px;
+        margin-bottom: 50px;
+     }
+
+     .offer-container{
+        width: 100%;
+        padding-left: 20px;
+        span{
+             font-size: 13px;
+             background-color: #F2F4F7;
+             border-radius: 8px;
+             color: #074786;
+             padding: 5px;
+             margin-right: 5px;
+             text-align: start;
+        }
+     }
+
+     h6{
+        font-size: 16px;
+        font-weight: 700;
+        color: #626E79;
+     }
+
+     p{
+        font-size: 16px;
+        color: #626E79;
+        width: 248px;
+        margin-right: 50px;
+        line-height: 24px
+     }
+
+     .price-container{
+        display: flex;
+        align-items: end;
+        gap: 18px;
+        width: 100%;
+        padding-left: 20px;
+        
+
+
+           span:nth-child(1){
+              font-size: 20px;
+              color: #5C6874;
+           }
+
+           span:nth-child(2){
+            font-size: 14px;
+            color: #9FA9B3;
+         }
+
+         span:nth-child(3){
+            font-size: 13px;
+            color: #EF4C5D;
+         }
+     }
+
+     .btn{
+        width: 292px;
+        height: 48px;
+        font-size: 16px;
+        border-radius: 12px;
+        background-color: #1B88F4;
+        color: #FFFFFF;
+        border: none;
+     }
+}
