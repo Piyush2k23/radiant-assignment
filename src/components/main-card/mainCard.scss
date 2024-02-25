@@ -1,14 +1,68 @@
+
+
 .main-container {
 
     width: 1024px;
     height: 255px;
     display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+
+
+    .best-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:8px;
+        width: 136px;
+        height: 34px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        position: absolute;
+        background-color: #FF7724;
+        font-size: 16px;
+        color: #FFFFFF;
+        top: -15px;
+        left: 0px;
+
+        span{
+            font-weight: 400;
+        }
+
+        .trophy-icon{
+            font-size: 18px;
+        }
+   }
+
+   .number-container{
+     background-color: #FFFFFF;
+     position: absolute;
+     width: 44px;
+     height: 44px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 100%;
+     left: -20px;
+     top: 40px;
+     border:1px solid #E1E4E6;
+
+      span{
+      font-size: 20px;
+        color: #626E79;
+     }
+
+     
+   }
 
     .left-container {
-
         display: flex;
         flex-direction: column;
-        gap: 2px;
+        justify-content: center;
+        gap: 8px;
         align-items: center;
 
         img {
@@ -28,6 +82,10 @@
         font-size: 16px;
         line-height: 24px;
         color: #4B5665;
+        margin-top: 14px;
+        display: flex;
+        flex-direction: column;
+        gap:8px;
 
         span {
             font-size: 17px;
@@ -35,13 +93,36 @@
             color: #435269;
         }
 
-        p{
-            
+        .second-parg{
+            padding-left: 16px;
         }
 
         h5 {
             font-size: 16px;
             color: #2C384A;
+        }
+
+        .show{
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            margin-top: 16px;
+            color: #1B88F4;
+            cursor: pointer;
+            :hover {
+                text-decoration: underline;
+            }
+
+            span{
+             font-size: 16px;
+             font-weight: 400;
+             color: #1B88F4;  
+            }
+
+            .down-arrow{
+            font-size: 15px;
+            }
+
         }
     }
 
@@ -96,5 +177,6 @@
         background-color: #1B88F4;
         font-size: 16px;
         color: #FFFFFF;
+        margin-bottom: 18px;
     }
 }
