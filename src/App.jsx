@@ -12,13 +12,14 @@ function App() {
   return (
     <>
      <main>
-       {/* <Navbar />
+       <Navbar />
+       <div className='app-container'>
+       <HeroSection />
        <MainCard /> 
        <Card />
-       <HeroSection />
-       <NewsLetter /> */}
+       <NewsLetter />
+       </div>
        <Footer />
-
      </main>
     </>
   )

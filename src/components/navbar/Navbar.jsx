@@ -3,10 +3,11 @@ import { CiSearch } from "react-icons/ci";
 
 const Navbar = () => {
   return (
-    <div className="navbar-container">
-        <div className="search-container">
+    <div className="navbar">
+       <div className="container">
+       <div className="search-container">
             <div className="search"><CiSearch /></div>
-            <input type="text" />
+            <input type="text" placeholder="Search... "/>
         </div>
         <nav>
             <ul>
@@ -21,6 +22,7 @@ const Navbar = () => {
                 </li>
             </ul>
         </nav>
+       </div>
     </div>
   )
 }

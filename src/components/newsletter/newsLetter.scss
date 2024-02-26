@@ -1,4 +1,4 @@
-.newsletter-container{
+.newsLetter-container{
      
     width: 1024px;
     height: 171px;
@@ -20,26 +20,27 @@
 
     .input-container{
          display: flex;
-
-         input{
+         .newsLetter-input{
             width: 348px;
             height: 52px;
             border-top-left-radius: 12px;
             border-bottom-left-radius: 12px;
+            padding-left: 8px;
+            padding-top: 2px;
             border: none;
             background-color: #FFFFFF;
-            
-
          }
+         
 
-         button{
+         .newsLetter-btn{
             width: 97px;
             height: 52px;
             border: none;
              background-color: #1B88F4;
              color: #FFFFFF;
-            border-top-right-radius: 12px;
-            border-bottom-right-radius: 12px;
+            // border-top-right-radius: 12px;
+            // border-bottom-right-radius: 12px;
+            border-radius: 0px 12px 12px 0px;
               
          }
          

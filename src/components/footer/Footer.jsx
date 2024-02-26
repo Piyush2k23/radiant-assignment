@@ -1,4 +1,5 @@
 import "./footer.scss";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -24,7 +25,7 @@ const Footer = () => {
             <h4>CONTACT</h4>
             <ul>
                 <li>
-                    <a href="#">contact</a>
+                    <a href="#">Contact</a>
                 </li>
                 <li>
                     <a href="#">Privacy Policy</a>
@@ -40,9 +41,9 @@ const Footer = () => {
                 </li>
             </ul>
         </section>
-        <div className="countory">
+        <div className="country">
             <span>United States</span>
-            
+            <MdKeyboardArrowDown />
         </div>
     </div>
   )

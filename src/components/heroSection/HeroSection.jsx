@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="informational-container">
         <div className="header-line"/>
         <div className="information">
-          <div className="left">
+          <div className="information-left">
             <div className="update">
               <CiCircleCheck className="icon"/>
               <span>Last Update - </span>
@@ -18,10 +18,10 @@ const HeroSection = () => {
             </div>
             <div className="advertising">
               <div className="logo-advertising"><span>i</span></div>
-              <span>Advertising Disclosure</span>
+              <span className="advertising-text">Advertising Disclosure</span>
             </div>
           </div>
-          <div className="right">
+          <div className="information-right">
               <span>Top Relevant</span>
               <MdKeyboardArrowDown className="icon"/>
             </div>

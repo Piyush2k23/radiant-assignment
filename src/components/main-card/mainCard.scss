@@ -1,181 +1,171 @@
-.main-container {
+.main-card-container {
+  width: 1024px;
+  height: 255px;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: row;
+  background-color: #ffffff;
+  justify-content: space-around;
+  position: relative;
+  border-radius: 12px;
 
-    width: 1024px;
-    height: 255px;
+  .best-container {
     display: flex;
-    background-color: #FFFFFF;
-    justify-content: space-around;
-    position: relative;
-    margin-top: 50px;
-    margin-left: 50px;
-    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 136px;
+    height: 34px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: absolute;
+    background-color: #ff7724;
+    font-size: 16px;
+    color: #ffffff;
+    top: -15px;
+    left: 0px;
 
+    span {
+      font-weight: 400;
+    }
 
-    .best-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap:8px;
-        width: 136px;
-        height: 34px;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
-        position: absolute;
-        background-color: #FF7724;
-        font-size: 16px;
-        color: #FFFFFF;
-        top: -15px;
-        left: 0px;
+    .trophy-icon {
+      font-size: 18px;
+    }
+  }
 
-        span{
-            font-weight: 400;
-        }
+  .number-container {
+    background-color: #ffffff;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    left: -20px;
+    top: 40px;
+    border: 1px solid #e1e4e6;
 
-        .trophy-icon{
-            font-size: 18px;
-        }
-   }
-
-   .number-container{
-     background-color: #FFFFFF;
-     position: absolute;
-     width: 44px;
-     height: 44px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     border-radius: 100%;
-     left: -20px;
-     top: 40px;
-     border:1px solid #E1E4E6;
-
-      span{
+    span {
       font-size: 20px;
-        color: #626E79;
-     }
+      color: #626e79;
+    }
+  }
 
-     
-   }
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
 
-    .left-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 8px;
-        align-items: center;
-
-        img {
-            width: 141px;
-            height: 103px;
-        }
-
-        span {
-            font-size: 13px;
-            color: #626E79;
-        }
+    img {
+      width: 141px;
+      height: 103px;
     }
 
-    .middle-container {
-        width: 490px;
-        height: 72px;
+    span {
+      font-size: 13px;
+      color: #626e79;
+    }
+  }
+
+  .middle-container {
+    width: 490px;
+    height: 72px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4b5665;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    span {
+      font-size: 17px;
+      font-weight: 600;
+      color: #435269;
+    }
+
+    .second-parg {
+      padding-left: 16px;
+    }
+
+    h5 {
+      font-size: 16px;
+      color: #2c384a;
+    }
+
+    .show {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      margin-top: 16px;
+      color: #1b88f4;
+      cursor: pointer;
+      :hover {
+        text-decoration: underline;
+      }
+
+      span {
         font-size: 16px;
-        line-height: 24px;
-        color: #4B5665;
-        margin-top: 14px;
-        display: flex;
-        flex-direction: column;
-        gap:8px;
+        font-weight: 400;
+        color: #1b88f4;
+      }
 
-        span {
-            font-size: 17px;
-            font-weight: 600;
-            color: #435269;
-        }
-
-        .second-parg{
-            padding-left: 16px;
-        }
-
-        h5 {
-            font-size: 16px;
-            color: #2C384A;
-        }
-
-        .show{
-            display: flex;
-            align-items: center;
-            gap: 3px;
-            margin-top: 16px;
-            color: #1B88F4;
-            cursor: pointer;
-            :hover {
-                text-decoration: underline;
-            }
-
-            span{
-             font-size: 16px;
-             font-weight: 400;
-             color: #1B88F4;  
-            }
-
-            .down-arrow{
-            font-size: 15px;
-            }
-
-        }
+      .down-arrow {
+        font-size: 15px;
+      }
     }
+  }
 
-    .right-container {
+  .right-container {
+    display: flex;
+    width: 232px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 
-        display: flex;
-        width: 232px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
+    .rating-container {
+      width: 135px;
+      height: 118px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      background-color: #f3f9ff;
 
-        .rating-container {
-            width: 135px;
-            height: 118px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            border-bottom-left-radius: 12px;
-            border-bottom-right-radius: 12px;
-            background-color: #F3F9FF;
+      span:nth-child(1) {
+        color: #074786;
+        font-size: 32px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
 
+      span:nth-child(2) {
+        color: #074786;
+        font-size: 14px;
+      }
 
-            span:nth-child(1) {
-                color: #074786;
-                font-size: 32px;
-                padding-top: 5px;
-                padding-bottom: 5px;
-            }
-
-            span:nth-child(2) {
-                color: #074786;
-                font-size: 14px;
-            }
-
-            span:nth-child(3) {
-                color: FFB80F;
-                font-size: 11px;
-            }
-
-        }
-
-
+      span:nth-child(3) {
+        color: FFB80F;
+        font-size: 11px;
+      }
     }
+  }
 
-    .btn {
-        width: 232px;
-        height: 48px;
-        border: none;
-        border-radius: 12px;
-        background-color: #1B88F4;
-        font-size: 16px;
-        color: #FFFFFF;
-        margin-bottom: 18px;
-    }
+  .btn {
+    width: 232px;
+    height: 48px;
+    border: none;
+    border-radius: 12px;
+    background-color: #1b88f4;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 18px;
+  }
 }
