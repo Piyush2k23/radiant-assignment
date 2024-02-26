@@ -7,13 +7,23 @@
     padding: 0 295px 0 295px;
 
     section{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap:10px;
+        width: 333px;
+        height: 258px;
+
         h4{
             color: #FFFFFF;
             font-size: 16px;
         }
-    }
+     
 
     ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
             list-style-type: none;
         li{
 
@@ -28,5 +38,7 @@
     span{
         font-size: 13px;
         color: #D1D6DA;
-    }
+     }
+   }
+  
 }

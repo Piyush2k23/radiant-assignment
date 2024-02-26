@@ -40,7 +40,7 @@ const Footer = () => {
                 </li>
             </ul>
         </section>
-        <div>
+        <div className="countory">
             <span>United States</span>
             
         </div>

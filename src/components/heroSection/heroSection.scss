@@ -1,0 +1,115 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: baseline;
+  background-color: #FBFCFD;
+  padding-left: 2px;
+  width: 1024px;
+
+  h1 {
+    width: 1006px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 48px;
+    color: #2c384a;
+  }
+
+  .informational-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    color: #4B5665;
+    gap: 10px;
+
+    .header-line {
+      width: 100%;
+      height: 1px;
+      background-color: #e1e4e6;
+    }
+
+    .icon{
+        font-size: 20px;
+        color: #4B5665;
+    }
+
+    .information {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-between;
+
+      .left {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .update{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .advertising {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+          .logo-advertising {
+            width: 16px;
+            height: 16px;
+            border: 1px solid #4B5665;
+            color: #626e79;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span{
+                font-size: 13px;
+                padding-top: 1px;
+                 
+            }
+          }
+        }
+      }
+
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+    }
+  }
+
+  .features-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    button {
+      width: 105px;
+      height: 36px;
+      color: #4b5665;
+      background-color: #FFFFFF;
+      text-align: left;
+      font-size: 13px;
+      padding-left: 10px;
+      border-radius: 12px;
+      border: 1px solid #e0d3d3;
+    }
+  }
+
+  .breadCrumbs {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 10px;
+
+    span {
+      font-size: 13px;
+      color: #727d87;
+    }
+  }
+}
