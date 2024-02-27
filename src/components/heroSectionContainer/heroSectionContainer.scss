@@ -1,5 +1,10 @@
 .layout-container{
     max-width: 1024px;
     margin: auto;
+
+    @media (max-width: 1024px) {
+      margin: 0 10px 0 10px;
+    }
+  
   }
   

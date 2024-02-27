@@ -43,7 +43,7 @@ const Footer = () => {
       </section>
       <div className="country">
         <span>United States</span>
-        <MdKeyboardArrowDown />
+        <MdKeyboardArrowDown className="country-arrow"/>
       </div>
     </div>
   );

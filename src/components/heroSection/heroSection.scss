@@ -51,14 +51,14 @@
           display: flex;
           align-items: center;
           gap: 10px;
-  
-          .last{
+
+          .last {
             font-size: 14px;
-            color: #4B5665;
+            color: #4b5665;
           }
-          .date{
+          .date {
             font-size: 13px;
-            color: #4B5665;
+            color: #4b5665;
           }
         }
 
@@ -99,13 +99,13 @@
           font-size: 14px;
           color: #727d87;
         }
-        .arrow-down-icon{
+        .arrow-down-icon {
           font-size: 22px;
-          color: #626E79;
+          color: #626e79;
         }
       }
     }
-     .header-line-bottom{
+    .header-line-bottom {
       width: 100%;
       height: 1.5px;
       background-color: #e1e4e6;
@@ -143,6 +143,244 @@
     }
     .arrowForward-icon {
       color: #4b5665;
+    }
+  }
+  @media (max-width: 1024px) {
+    .informational-container {
+      .information {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  }
+
+  @media (max-width: 940px) {
+    .informational-container {
+      .information {
+        display: flex;
+        justify-content: space-evenly;
+      }
+    }
+  }
+  @media (max-width: 895px) {
+    .informational-container {
+      .information {
+        display: flex;
+        justify-content: start;
+
+        .information-right {
+          margin-left: 280px;
+        }
+      }
+    }
+  }
+  @media (max-width: 835px) {
+    .informational-container {
+      .information {
+        .information-right {
+          margin-left: 200px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      height: 60px;
+      font-weight: 400;
+      font-size: 32px;
+      margin-bottom: -25px;
+    }
+
+    .informational-container {
+      .information {
+        .information-right {
+          margin-left: 140px;
+        }
+      }
+    }
+    .features-container {
+      display: flex;
+      flex-wrap: wrap;
+      button {
+        font-size: 10px;
+        width: 90px;
+      }
+    }
+  }
+
+  @media (max-width: 700px) {
+    h1 {
+      height: 60px;
+      font-weight: 400;
+      font-size: 32px;
+      margin-bottom: -25px;
+    }
+
+    .informational-container {
+      .information {
+        display: flex;
+        justify-content: start;
+
+        .information-right {
+          margin-left: 80px;
+        }
+      }
+    }
+    .features-container {
+      display: flex;
+      flex-wrap: wrap;
+      button {
+        font-size: 10px;
+        width: 80px;
+      }
+    }
+  }
+
+  @media (max-width: 640px) {
+    h1 {
+      height: 60px;
+      font-weight: 400;
+      font-size: 28px;
+      margin-top: 5px;
+      margin-bottom: -25px;
+    }
+
+    .informational-container {
+      .information {
+        display: flex;
+        justify-content: start;
+
+        .information-left {
+          .update {
+            .last {
+              font-size: 12px;
+            }
+            .date {
+              font-size: 11px;
+            }
+          }
+          .advertising {
+            .advertising-text {
+              font-size: 12px;
+            }
+          }
+        }
+
+        .information-right {
+          margin-left: 30px;
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .features-container {
+      display: flex;
+      flex-wrap: wrap;
+      button {
+        font-size: 10px;
+        width: 80px;
+      }
+    }
+  }
+
+  @media (max-width: 640px) {
+    h1 {
+      height: 60px;
+      font-weight: 400;
+      font-size: 28px;
+      margin-top: 5px;
+      margin-bottom: -25px;
+    }
+
+    .features-container {
+      display: flex;
+      flex-wrap: wrap;
+      button {
+        font-size: 10px;
+        width: 60px;
+      }
+    }
+
+    .informational-container {
+      .information {
+        display: flex;
+        justify-content: start;
+
+        .information-left {
+          .update {
+            .last {
+              font-size: 11px;
+            }
+            .date {
+              font-size: 11px;
+            }
+          }
+          .advertising {
+            .advertising-text {
+              font-size: 11px;
+            }
+          }
+        }
+
+        .information-right {
+          margin-left: 30px;
+          span {
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    width: 100%;
+    padding: 0 5px 0 5px;
+    margin-top: 10px;
+
+    h1 {
+      height: 60px;
+      width: 400px;
+      font-weight: 400;
+      font-size: 25px;
+      margin-bottom: -25px;
+    }
+
+    h4 {
+      font-size: 22px;
+      width: 300px;
+    }
+
+    .input-container {
+      width: 20rem;
+    }
+
+    .features-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      button {
+        font-size: 10px;
+      }
+    }
+
+    .information {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .breadCrumbs {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      justify-content: space-between;
+      font-size: 6px;
+      margin-bottom: 20px;
+      span {
+        font-size: 12px;
+      }
     }
   }
 }
