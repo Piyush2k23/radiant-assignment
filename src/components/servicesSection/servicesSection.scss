@@ -1,23 +1,19 @@
 .card-section {
-
+   margin-top: 80px;
   h2 {
     font-size: 32px;
     color: #2c384a;
     font-weight: 400;
     margin-bottom: 25px;
   }
-  
+
   .detail-main-container {
-    // display: grid;
-    // grid-template-columns: 333px 333px 333px;
-    display: flex;
-    align-items: center;
-    // flex-direction: column;
-    background-color: #FBFCFD;
+    display: grid;
+    grid-template-columns: 333px 333px 333px;
+    background-color: #fbfcfd;
     gap: 25px;
     width: 1025px;
-   
-  
+
     .card-container {
       width: 333px;
       height: 425px;
@@ -25,16 +21,16 @@
       border-radius: 12px;
       align-items: center;
       flex-direction: column;
-      background-color: #FFFFFF;
+      background-color: #ffffff;
       justify-content: space-evenly;
       padding-top: 10px;
-  
+
       .card-img {
         width: 141px;
         height: 103px;
         margin-bottom: 50px;
       }
-  
+
       .offer-container {
         width: 100%;
         padding-left: 20px;
@@ -48,13 +44,13 @@
           text-align: start;
         }
       }
-  
+
       h6 {
         font-size: 16px;
         font-weight: 700;
         color: #626e79;
       }
-  
+
       p {
         font-size: 16px;
         color: #626e79;
@@ -62,31 +58,29 @@
         margin-right: 50px;
         line-height: 24px;
       }
-  
+
       .price-container {
         display: flex;
         align-items: end;
         gap: 18px;
         width: 100%;
         padding-left: 20px;
-  
+
         span:nth-child(1) {
           font-size: 20px;
           color: #5c6874;
         }
-  
+
         span:nth-child(2) {
           font-size: 14px;
           color: #9fa9b3;
         }
-  
+
         span:nth-child(3) {
           font-size: 13px;
           color: #ef4c5d;
         }
       }
-  
     }
   }
-  
 }

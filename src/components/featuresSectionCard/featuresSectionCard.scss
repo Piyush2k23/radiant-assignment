@@ -1,13 +1,12 @@
-.main-card-container {
+.main-card-cdk-container {
   width: 1024px;
-  height: 255px;
+  height: 445px;
   display: flex;
   margin-bottom: 20px;
   flex-direction: row;
   background-color: #ffffff;
   justify-content: space-around;
   position: relative;
-  margin-bottom: 90px;
   border-radius: 12px;
   padding-right: 20px;
   padding-bottom: 15px;
@@ -85,6 +84,72 @@
     flex-direction: column;
     gap: 8px;
 
+    .percentage {
+      color: #074786;
+      font-size: 13px;
+      background-color: #f2f4f7;
+      text-align: center;
+      width: 61px;
+      height: 26px;
+      border-radius: 4px;
+      padding: 0px 2px 2px 2px;
+    }
+
+    .highlights-container {
+      width: 505px;
+      height: 116px;
+      border-radius: 12px;
+      background-color: #fff4ed;
+      margin-left: 15px;
+      padding: 5px 0px 5px 10px;
+
+      .inner-highlights-container {
+        display: flex;
+        gap: 10px;
+
+        .number {
+          background-color: #ffffff;
+          width: 40px;
+          height: 28px;
+          margin-top: 4px;
+          margin-bottom: 4px;
+          font-weight: 200;
+          font-size: 15px;
+          text-align: center;
+          color: #1b88f4;
+          border-radius: 4px;
+        }
+
+        .main-highlights-text {
+          font-size: 16featuresSectionCardpx;
+          margin-top: 6px;
+          font-weight: 300;
+          color: #4b5665;
+        }
+      }
+    }
+
+    .check-container {
+      h5 {
+        color: #2c384a;
+        font-size: 16px;
+        margin-top: 5px;
+      }
+
+      .inner-check-container {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        gap: 10px;
+      }
+
+      span {
+        color: #4b5665;
+        font-size: 15px;
+        font-weight: 200;
+      }
+    }
+
     span {
       font-size: 17px;
       font-weight: 600;
@@ -159,15 +224,14 @@
         font-size: 11px;
       }
 
-      .star-rating{
-         color: #FFB80F;
-         justify-content: center;
-         .star-half-icon{
-           font-size: 13px;
-           color: #FFB80F;
-         }
+      .star-rating {
+        color: #ffb80f;
+        justify-content: center;
+        .star-half-icon {
+          font-size: 13px;
+          color: #ffb80f;
+        }
       }
     }
   }
-
 }
