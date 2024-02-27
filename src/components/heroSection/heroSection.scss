@@ -1,11 +1,12 @@
-.main-container {
+.hero-main-container {
   display: flex;
   flex-direction: column;
   gap: 15px;
   justify-content: baseline;
-  background-color: #FBFCFD;
+  background-color: #fbfcfd;
   padding-left: 2px;
   width: 1024px;
+  margin-bottom: 40px;
 
   h1 {
     width: 1006px;
@@ -21,18 +22,18 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    color: #4B5665;
+    color: #4b5665;
     gap: 10px;
 
-    .header-line {
+    .header-line-top {
       width: 100%;
       height: 1px;
       background-color: #e1e4e6;
     }
 
-    .icon{
-        font-size: 20px;
-        color: #4B5665;
+    .icon {
+      font-size: 20px;
+      color: #4b5665;
     }
 
     .information {
@@ -46,44 +47,45 @@
         align-items: center;
         gap: 20px;
 
-        .update{
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            span:nth-child(2){
-              font-size: 14px;
-              color: #4B5665;
-            }
-            span:nth-child(3){
-              font-size: 13px;
-              color: #4B5665;
-            }
+        .update {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+  
+          .last{
+            font-size: 14px;
+            color: #4B5665;
+          }
+          .date{
+            font-size: 13px;
+            color: #4B5665;
+          }
         }
 
         .advertising {
-            display: flex;
-            align-items: center;
-            gap: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
           .logo-advertising {
             width: 16px;
             height: 16px;
-            border: 1px solid #4B5665;
+            border: 1px solid #4b5665;
             color: #626e79;
             border-radius: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
 
-            span:nth-child(1){
-                font-size: 13px;
-                padding-top: 1px;   
+            span:nth-child(1) {
+              font-size: 13px;
+              padding-top: 1px;
             }
-           
           }
-          .advertising-text{
+          .advertising-text {
             font-size: 14px;
             color: #626e79;
-        }
+          }
         }
       }
 
@@ -91,7 +93,22 @@
         display: flex;
         align-items: center;
         gap: 4px;
+        cursor: pointer;
+
+        span {
+          font-size: 14px;
+          color: #727d87;
+        }
+        .arrow-down-icon{
+          font-size: 22px;
+          color: #626E79;
+        }
       }
+    }
+     .header-line-bottom{
+      width: 100%;
+      height: 1.5px;
+      background-color: #e1e4e6;
     }
   }
 
@@ -104,7 +121,7 @@
       width: 105px;
       height: 36px;
       color: #4b5665;
-      background-color: #FFFFFF;
+      background-color: #ffffff;
       text-align: left;
       font-size: 13px;
       padding-left: 10px;
@@ -123,6 +140,9 @@
     span {
       font-size: 13px;
       color: #727d87;
+    }
+    .arrowForward-icon {
+      color: #4b5665;
     }
   }
 }

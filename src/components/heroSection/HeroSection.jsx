@@ -5,16 +5,16 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const HeroSection = () => {
   return (
-    <main className="main-container">
+    <main className="hero-main-container">
       <h1>Best Website builders in the US</h1>
       <div className="informational-container">
-        <div className="header-line"/>
+        <div className="header-line-top"/>
         <div className="information">
           <div className="information-left">
             <div className="update">
               <CiCircleCheck className="icon"/>
-              <span>Last Update - </span>
-              <span>February 27, 2024</span>
+              <span className="last">Last Update - </span>
+              <span className="date">February 27, 2024</span>
             </div>
             <div className="advertising">
               <div className="logo-advertising"><span>i</span></div>
@@ -23,10 +23,10 @@ const HeroSection = () => {
           </div>
           <div className="information-right">
               <span>Top Relevant</span>
-              <MdKeyboardArrowDown className="icon"/>
+              <MdKeyboardArrowDown className="arrow-down-icon"/>
             </div>
         </div>    
-        <div className="header-line"/> 
+        <div className="header-line-bottom"/> 
       </div>
       <div className="features-container">
         <button>Tools</button>
@@ -38,13 +38,13 @@ const HeroSection = () => {
       </div>
       <div className="breadCrumbs">
         <span>Home</span>
-        <IoIosArrowForward />
+        <IoIosArrowForward className="arrowForward-icon"/>
         <span>Hosting for all</span>
-        <IoIosArrowForward />
+        <IoIosArrowForward className="arrowForward-icon"/>
         <span>Hosting</span>
-        <IoIosArrowForward />
+        <IoIosArrowForward className="arrowForward-icon"/>
         <span>Hosting5</span>
-        <IoIosArrowForward />
+        <IoIosArrowForward className="arrowForward-icon"/>
         <span>Hosting6</span>
       </div>
     </main>
